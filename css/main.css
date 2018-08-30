@@ -1,0 +1,135 @@
+/*
+Color Code
+
+Ship Cove:          #7479BD;
+Mulled Wine:        #4D4D71;
+Feijoa:             #88D984;
+De York:            #83C891;
+Glacier:            #76B1BE;
+Silver Chalice:     #B2B2B2;
+White:              #FFFFFF;
+*/
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Base Style */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header-main,
+.profile,
+.noti,
+.icon-bell,
+.nav-main ul {
+  display: flex;
+  align-items: center;
+}
+
+/* Header Style*/
+.header-main {
+  padding: 1.3rem;
+  background-color: #7479BD;
+}
+
+/* Logo */
+.logo-header {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.logo-header span:nth-of-type(1) {
+  font-weight: 700;
+}
+
+.logo-header span:nth-of-type(2) {
+  font-weight: 300;
+}
+
+.logo-header sup {
+  font-size: .5rem;
+  font-weight: 300;
+  vertical-align: super;
+}
+
+/* Profile */
+.profile {
+  margin-left: auto;
+}
+
+.noti {
+  padding-right: .8rem;
+}
+
+.noti .icon-bell svg {
+  width: 1.5rem;
+  fill: #ffffff;
+}
+
+.noti .icon-new-noti {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  align-self: flex-start;
+  background-color: #83C891;
+}
+
+.user {
+  padding-left: .8rem;
+  border-left: 2px solid #4D4D71;
+}
+
+.user .user-photo img {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.user .user-name {
+  display: none;
+}
+
+/* Navigation */
+
+.nav-main {
+  background-color: #4D4D71;
+}
+
+.nav-main ul {
+  margin: 0;
+}
+
+.nav-main ul li {
+  text-align: center;
+  width: 25%;
+  padding: 1.5rem 0 .8rem 0;
+  margin: 0 .7rem;
+}
+
+.nav-main svg {
+  width: 1.7rem;
+  fill: #B2B2B2;
+}
+
+.current {
+  border-bottom: 4px solid #88D984;
+}
+
+.current svg{
+  fill: #ffffff;
+}
+
+/* Media Queries */
+
+@media (min-width: 320px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
