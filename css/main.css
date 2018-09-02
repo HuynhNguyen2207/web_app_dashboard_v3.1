@@ -129,6 +129,7 @@ ul {
   fill: #ffffff;
 }
 
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -161,8 +162,10 @@ ul {
 }
 
 @media (min-width: 1024px) {
+
   .user .user-name {
     display: block;
     margin-left: 1rem;
   }
+
 }
